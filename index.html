@@ -5,101 +5,95 @@
     <meta name="viewport" content="width=>, initial-scale=1.0">
     <title>Music_shop</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,400&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bellota:wght@300&display=swap">
     <link rel="stylesheet" href="musicshop.css">
+    <link rel="stylesheet" href="adaptive.css">
 </head>
 <body>
     <header class="header">
         <div class="container">
-            <div class="logo">
-                <img src="images/Exclude.png" alt="" class="header__logo" width="55px" height="55px">
+            <div class="header__logo header-logo">
+                <img class="header-logo__img" src="images/Exclude.png" alt="" width="55px" height="55px">
             </div>
-            <div class="menu">
-                <nav class="menu__nav">
-                    <a class="nav__button"><span class="nav__button bold">Каталог</span></a>
-                    <a class="nav__button">FAQ</a>
-                    <a class="nav__button">Контакты</a>
-                </nav>
-            </div>
-            <div class="phone">
-                <img src="images/Vector-3.png" alt="" class="phone__logo">
-                <a class="phone__link">8 (495) 690-06-90</a>
-            </div>
-            <div class="button">
-                <div class="button__search">
-                    <img src="images/Ellipse 151.png" alt="" class="button__search icon">
-                </div>
-                <div class="button__icon">
-                    <img src="images/Vector 348.png" alt="" class="button__icon heart">
-                    <img src="images/Vector.png" alt="" class="button__icon profile">
-                    <img src="images/basket.png" alt="" class="button__icon basket">
-                </div>
+            <nav class="header__menu header-menu">
+                <a class="header-menu__button_bold" href="#catalogue">Каталог</a>
+                <a class="header-menu__button">FAQ</a>
+                <a class="header-menu__button">Контакты</a>
+            </nav>
+                <img class="header-phone__img" src="images/Vector-3.png" alt="">
+                <a class="header-phone__link">8 (495) 690-06-90</a>
+                <img class="header-button__img" src="images/Ellipse 151.png" alt="">
+            <div class="header__button header-button">
+                <img class="header-button__icon" src="images/Vector 348.png" alt="">
+                <img class="header-button__icon" src="images/Vector.png" alt="">
+                <img class="header-button__icon" src="images/basket.png" alt="">
             </div>
         </div>
     </header>
-    <section class="section1">
-        <nav class="nav">
-            <a href="#" class="nav__links">Главная</a>
-            <a href="#" class="nav__links">&rsaquo;</a>
-            <a href="#catalogue" class="nav__links">Каталог</a>
-            <h1 id="catalogue" class="nav__catalogue">Каталог</h1>
+    <section class="section">
+        <nav class="section__nav section-nav">
+            <a class="section-nav__links" href="#" >Главная</a>
+            <a class="section-nav__links" href="#">&rsaquo;</a>
+            <a class="section-nav__links" href="#catalogue">Каталог</a>
+            <h1 class="section-nav__catalogue" id="catalogue">Каталог</h1>
         </nav>
     </section>
-    <section class="section">
-        <div class="section__menu">
-            <a class="section__menu singer">Исполнитель &or;</a>
-            <a class="section__menu album">Альбом &or;</a>
-            <a class="section__menu genre">Жанр &or;</a>
+    <h2 class="h2">
+        <div class="h2__menu h2-menu">
+            <a class="h2-menu__singer">Исполнитель &or;</a>
+            <a class="h2-menu__album">Альбом &or;</a>
+            <a class="h2-menu__genre">Жанр &or;</a>
+            <a class="h2-menu__condition">Состояние &or;</a>
         </div>
-        <div class="section__price">
-            <p class="section__price from">Цена от</p>
-            <p class="section__price underline">___</p>
-            <p class="section__price to>">До</p>
-            <p class="section__price underline">___</p>
+        <div class="h2__price h2-price">
+            <p class="h2-price__from">Цена от</p>
+            <p class="h2-price__underline">_______</p>
+            <p class="h2-price__to>">До</p>
+            <p class="h2-price__underline">_______</p>
         </div>
-        <div class="section__sort">
-            <a class="section__sort engine">Сортировать по &or;</a>
+        <div class="h2__sort h2-sort">
+            <a class="h2-sort__engine">Сортировать по &or;</a>
         </div>
-    </section>
-    <article class="article">
-        <div class="article__card">
-            <img src="" alt="" height="250px" width="250px">
-            <p class="article__card singer--bold">Rocks</p>
-            <p class="article__card singer--small">Aerosmith</p>
-        </div>
-        <div class="article__price">
-            <p class="article__price price--rub">4 700 ₽</p>
-        </div>
-        <div class="article__icon">
-            <img src="" alt="" class="article__icon heart" width="14.93" height="12.8">
-            <img src="" alt="" class="article__icon basket" width="14.93" height="14.93">
-        </div>
-    </article>
-            
+    </h2>
+        <article class="article">
+                <img class="article-card_corner" src="images/Rectangle 89.png">
+            <div class="article__card article-card">
+                <img class="article-card_top" src="/images/Rectangle 89-3.png">
+                <img class="article-card_top" src="images/Rectangle 90.png">
+                <img class="article-card_top" src="images/Rectangle 91.png">
+                <div class="article-card__center">
+                    <p class="article1-card__singer_bold">Rocks</p>
+                    <p class="article1-cad__singer_small">Aerosmith</p>
+                    <p class="article-price__rub">4 700 ₽</p>
+                </div>
+                    <div class="card__icon card-icon">
+                        <img class="card-icon__heart" src="" alt="" width="14.93" height="12.8">
+                        <img class="card-icon__basket" src="" alt="" width="14.93" height="14.93">
+                    </div>
+                </div>
+            </div>
+        </article>    
     <footer class="footer">
-        <div class="footer__copyright">
-            <p class="footer__copyright tradem">©Vinil Market 2021.<br>Все права защищены.</p>
-            <img src="" alt="" class="facebook">
-            <img src="" alt="" class="instagram">
+        <div class="footer__copyright footer-copyright">
+            <p class="footer-copyright__tradem">©Vinil Market 2021.<br>Все права защищены.</p>
+            <img class="footer-copyright__facebook" src="" alt="">
+            <img class="footer-copyright__instagram" src="" alt="">
         </div>
         <div> 
-            <div class="footer__info">
+            <div class="footer__info footer-info">
                 <a href="#catalogue">Каталог</a>
                 <a href="#">О нас</a>
                 <a href="#">Сертификат</a>
             </div>
-            <div class="footer__info">
+            <div class="footer-info">
                 <a href="#">FAQ</a>
                 <a href="#">Гарантия</a>
                 <a href="#">Контакты</a>
             </div>    
         </div>
-        <div class="footer__info">
-                <p class="contactDetails">8 (495) 690-06-90<br>trade@vinyl.ru<br>Большой Афанасьевский<br>переулок д. 35-37, строение 4</p>
-        </div>
-        
+        <div class="footer-info">
+                <p class="footer-info__details">8 (495) 690-06-90<br>trade@vinyl.ru<br>Большой Афанасьевский<br>переулок д. 35-37, строение 4</p>
+        </div> 
     </footer>
-    
-
-   
 </body>
 </html>
