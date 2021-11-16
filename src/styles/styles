@@ -1,1 +1,23 @@
-
+@media (max-width:1000px) {
+    .header {
+        width: 95%;
+    }
+    .container {
+        width: 85%;
+    }
+    .header__logo {
+        width: 45%
+    }
+    .header__menu {
+        width: 45%;
+    }
+    .header__button {
+        width: 45%;
+    }
+    .header-phone__link {
+        width: 95%;
+    }
+    .section {
+        width: 80%
+    }
+}
