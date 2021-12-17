@@ -10,90 +10,103 @@
     <link rel="stylesheet" href="https://raw.githack.com/NikitaVakhrameev/Music-shop/main/src/styles/styles">
 </head>
 <body>
-    <header class="header">
-        <div class="container">
-            <div class="header__logo header-logo">
-                <img class="header-logo__img" src="https://raw.githack.com/NikitaVakhrameev/Music-shop/main/src/img/Exclude.png" alt="" width="55px" height="55px">
-            </div>
-            <nav class="header__menu header-menu">
-                <a class="header-menu__button_bold" href="#catalogue">Каталог</a>
-                <a class="header-menu__button">FAQ</a>
-                <a class="header-menu__button">Контакты</a>
-            </nav>
-                <img class="header-phone__img" src="https://github.com/NikitaVakhrameev/Music-shop/blob/main/src/img/Vector-3.png" alt="">
-                <a class="header-phone__link">8 (495) 690-06-90</a>
-                <img class="header-button__img" src="https://github.com/NikitaVakhrameev/Music-shop/blob/main/src/img/Ellipse%20151.png" alt="">
-            <div class="header__button header-button">
-                <img class="header-button__icon" src="https://raw.githack.com/NikitaVakhrameev/Music-shop/main/src/img/Vector%20348.png" alt="">
-                <img class="header-button__icon" src="https://raw.githack.com/NikitaVakhrameev/Music-shop/main/src/img/Vector-3.png" alt="">
-                <img class="header-button__icon" src="https://raw.githack.com/NikitaVakhrameev/Music-shop/main/src/img/basket.png" alt="">
-            </div>
-        </div>
-    </header>
-    <section class="section">
-        <nav class="section__nav section-nav">
-            <a class="section-nav__links" href="#" >Главная</a>
-            <a class="section-nav__links" href="#">&rsaquo;</a>
-            <a class="section-nav__links" href="#catalogue">Каталог</a>
-            <h1 class="section-nav__catalogue" id="catalogue">Каталог</h1>
-        </nav>
-    </section>
-    <h2 class="h2">
-        <div class="h2__menu h2-menu">
-            <a class="h2-menu__singer">Исполнитель &or;</a>
-            <a class="h2-menu__album">Альбом &or;</a>
-            <a class="h2-menu__genre">Жанр &or;</a>
-            <a class="h2-menu__condition">Состояние &or;</a>
-        </div>
-        <div class="h2__price h2-price">
-            <p class="h2-price__from">Цена от</p>
-            <p class="h2-price__underline">_______</p>
-            <p class="h2-price__to>">До</p>
-            <p class="h2-price__underline">_______</p>
-        </div>
-        <div class="h2__sort h2-sort">
-            <a class="h2-sort__engine">Сортировать по &or;</a>
-        </div>
-    </h2>
-        <article class="article">
-                <img class="article-card_corner" src="https://raw.githack.com/NikitaVakhrameev/Music-shop/main/src/img/Rectangle%2089.png">
-            <div class="article__card article-card">
-                <img class="article-card_top" src="https://raw.githack.com/NikitaVakhrameev/Music-shop/main/src/img/Rectangle%2089-3.png">
-                <img class="article-card_top" src="https://raw.githack.com/NikitaVakhrameev/Music-shop/main/src/img/Rectangle%2090.png">
-                <img class="article-card_top" src="https://raw.githack.com/NikitaVakhrameev/Music-shop/main/src/img/Rectangle%2091.png">
-                <div class="article-card__center">
-                    <p class="article1-card__singer_bold">Rocks</p>
-                    <p class="article1-cad__singer_small">Aerosmith</p>
-                    <p class="article-price__rub">4 700 ₽</p>
+ <div class="page-container">
+            <header class="header">
+                <div class="header__nav header-nav">
+                    <img class="header-nav__logo nav-logo" src="images/Exclude.png">
+                    <nav class="header-nav__links nav-links">
+                        <a class="nav-links__item">КАТАЛОГ</a>
+                        <a class="nav-links__item">FAQ</a>
+                        <a class="nav-links__item">КОНТАКТЫ</a>
+                    </nav>
                 </div>
-                    <div class="card__icon card-icon">
-                        <img class="card-icon__heart" src="" alt="" width="14.93" height="12.8">
-                        <img class="card-icon__basket" src="" alt="" width="14.93" height="14.93">
+                <div class="header__actions header-actions">
+                    <div class="header-actions__contact action-contact">
+                        <img class="action-contact__img" src="images/Vector-3.png">
+                        <span class="action-contact__phone">8 (495) 690-06-90</span>
+                    </div>
+                    <div class="header-actions__search action-search">
+                        <img class="action-search__icon" src="images/Ellipse 151.png">
+                    </div>
+                    <div class="header-actions__options action-options">
+                        <img class="action-options__item" src="images/Vector 348.png">
+                        <img class="action-options__item" src="images/Vector.png">
+                        <img class="action-options__item" src="images/basket.png">
                     </div>
                 </div>
+            </header>
+            <section class="section">
+                <nav class="section__nav section-nav">
+                    <a class="section-nav__links" href="#" >Главная</a>
+                    <a class="section-nav__links" href="#">&rsaquo;</a>
+                    <a class="section-nav__links" href="#catalogue">Каталог</a>
+                    <h1 class="section-nav__catalogue" id="catalogue">Каталог</h1>
+                </nav>
+            </section>
+            <div class="content">
+                <div class="content__menu content-menu">
+                    <a class="content-menu__link">Исполнитель &or;</a>
+                    <a class="content-menu__link">Альбом &or;</a>
+                    <a class="content-menu__link">Жанр &or;</a>
+                    <a class="content-menu__link">Состояние &or;</a>
+                </div>
+                <div class="content-menu__price menu-price">
+                    <p class="menu-price__item">Цена от</p>
+                    <p class="menu-price__item">_______</p>
+                    <p class="menu-price__item>">До</p>
+                    <p class="menu-price__item">_______</p>
+                </div>
+                <div class="content__menu menu-sort">
+                    <a class="menu-sort__engine">Сортировать по &or;</a>
+                </div>
             </div>
-        </article>    
-    <footer class="footer">
-        <div class="footer__copyright footer-copyright">
-            <p class="footer-copyright__tradem">©Vinil Market 2021.<br>Все права защищены.</p>
-            <img class="footer-copyright__facebook" src="" alt="">
-            <img class="footer-copyright__instagram" src="" alt="">
-        </div>
-        <div> 
-            <div class="footer__info footer-info">
-                <a href="#catalogue">Каталог</a>
-                <a href="#">О нас</a>
-                <a href="#">Сертификат</a>
-            </div>
-            <div class="footer-info">
-                <a href="#">FAQ</a>
-                <a href="#">Гарантия</a>
-                <a href="#">Контакты</a>
-            </div>    
-        </div>
-        <div class="footer-info">
-                <p class="footer-info__details">8 (495) 690-06-90<br>trade@vinyl.ru<br>Большой Афанасьевский<br>переулок д. 35-37, строение 4</p>
-        </div> 
-    </footer>
+            <main class="main">
+                <div class="main__card card-clash">
+                    <img class="main__card-corner" src="images/Rectangle 89.png">
+                </div>
+                <div class="main__card card-top">
+                    <img class="card-top__pistols" src="/images/Rectangle 89-3.png" height="285px" width="285px">
+                    <img class="card-top__clash" src="images/Rectangle 90.png" height="285px" width="285px">
+                    <img class="card-top__unknown" src="images/Rectangle 91.png" height="285px" width="285px">
+                        <div class="main__card card-specific">
+                            <div class="card-specific__left">
+                                <p class="card-specific__bold">Rocks</p>
+                                <p class="card-specific__lowercase">Aerosmith</p>
+                            </div>
+                            <div class="card-specific__bottom">
+                                <p class="card-specific__price">4 700 ₽</p>
+                                <div class="card-specific__logo">
+                                    <img class="heart" src="images/Vector 348.png" width="14.93" height="12.8">
+                                    <img class="search" src="images/basket.png" width="14.93" height="12.8">
+                                </div>
+                            </div>
+                        </div>
+                    <img class="card-specific" src="" height="285px" width="285px">
+                    <img class="card-specific" src="" height="285px" width="285px">
+                </div>
+            </main>
+            <footer class="footer">
+                <div class="footer__copyright footer-copyright">
+                    <p class="footer-copyright__tradem"><span class="footer-copyright__tradem_bold">©Vinil Market 2021.</span><br>Все права защищены.</p>
+                    <img class="footer-copyright__facebook" src="" alt="">
+                    <img class="footer-copyright__instagram" src="" alt="">
+                </div>
+                <div class="footer__contacts footer-contacts"> 
+                    <div class="footer-contacts__info contacts-info">
+                        <a class="contacts-info__catalogue" href="#catalogue">Каталог</a>
+                        <a class="contacts-info__about" href="#">О нас</a>
+                        <a class="contacts-info__certificate" href="#">Сертификат</a>
+                    </div>
+                    <div class="footer__info footer-info">
+                        <a class="footer-info__FAQ" href="#">FAQ</a>
+                        <a class="footer-info__warranty" href="#">Гарантия</a>
+                        <a class="footer-info__contacts" href="#">Контакты</a>
+                    </div>    
+                </div>
+                <div class="footer__address footer-address">
+                        <p class="footer-address__details">8 (495) 690-06-90<br>trade@vinyl.ru<br>Большой Афанасьевский<br>переулок д. 35-37, строение 4</p>
+                </div> 
+            </footer>
+        </div>        
 </body>
 </html>
