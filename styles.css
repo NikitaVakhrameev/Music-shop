@@ -282,6 +282,10 @@ body {
     .main {
         max-width: 60%;
     }
+    
+    .card-top__clash {
+        margin-top: 25px;
+    }
 }    
     
 
