@@ -6,7 +6,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     color: #FFFFFF;
     font-size: 14px;
-    width: 1680px;
+    /*width: 1680px;*/
 }
 
 .page-container {
@@ -87,6 +87,8 @@ body {
 
 .section-nav__links {
     font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
     color: #A5A5A5;
     text-decoration: none;
     padding-left: 9px;
@@ -108,8 +110,17 @@ body {
     display: flex;
     justify-content: space-between;
     font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
     color: #A5A5A5;
     font-size: 16px;
+}
+
+.content-menu__link:first-child {
+    margin-left: 0px;
+}
+
+.content-menu__link {
+    margin-left: 30px;
 }
 
 .menu-price {
@@ -123,7 +134,8 @@ body {
     flex-wrap: nowrap;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 20px;;
+    margin-top: 20px;
+
 }
 
 .card-top {
@@ -134,6 +146,14 @@ body {
     
 }
 
+/*.card-top__item {
+    margin-left: 20px;
+}
+
+.card-top__item:first-child {
+    margin-left: 0px;
+}*/
+
 .card-specific {
     background-color: brown;
     height: 285px;
@@ -141,32 +161,80 @@ body {
     margin-top: 20px;
 }
 
+.card-specific__bold {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.card-specific__lowercase {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
 .card-specific__left {
     flex-direction: column;
-    margin-left: 10px;
-    margin-top: 10px;
+    margin-left: 25px;
+    margin-top: 35px;
 }
 
 .card-specific__bottom {
     display: flex;
-    margin-left: 10px;
-    margin-top: 160px;
+    margin-left: 25px;
+    margin-top: 120px;
     justify-content: space-between;
 }
 
 .card-specific__logo {
-    margin-right: 20px;
+    margin-right: 25px;
+    margin-top: 15px;
     align-items: center;
 }
-
 .footer {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
     display: flex;
     justify-content: space-between;
-    margin-top: 30px;    
+    margin-top: 30px;  
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-copyright {
+    height: 337px;
+    width: 357px;
+    margin-left: 80px;
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-copyright__tradem {
+    margin-top: 125px;
+}
+
+.footer-copyright__tradem_bold {
+    font-weight: bold;
+}
+
+.footer-copyright__facebook {
+    height: 24px;
+    width: 24px;
+    margin-top: 25px;
+}
+
+.footer-copyright__instagram {
+    height: 24px;
+    width: 24px;
+    margin-top: 25px;
+    margin-left: 30px;
 }
 
 .footer-contacts {
-    margin-left: 10px;   
+    height: 337px;
+    width: 357;
+    margin-top: 125px;
+    margin-left: 10px;
+    
+    
 }
 
 @media screen and (max-width:1370px) {
@@ -176,14 +244,27 @@ body {
         justify-content: flex-start;
         margin-top: 50px;
     }
-    
     .menu-price {
         margin-top: 20px;
     }
-    
     .menu-sort {
         margin-top: 20px;
     }
+}
+
+/*.h2__menu {
+    margin-left: 80px;
+    margin-top: 90px;
+    font-family: 'Montserrat', sans-serif;
+    color: #A5A5A5;
+    font-size: 16px;
+}
+/*
+@media screen and (max-width:930px) {
+    .section-nav {
+        flex-direction: column;
+        justify-content: space-between;*/
+    
 }
 
 @media screen and (max-width: 1250px) {
@@ -265,6 +346,10 @@ body {
 
 @media screen and (max-width:1370px) {
     .main {
+        /*display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+        /*flex-wrap: nowrap;*/
         max-width: 80%;
     }  
 
@@ -282,10 +367,10 @@ body {
     .main {
         max-width: 60%;
     }
-    
     .card-top__clash {
         margin-top: 25px;
     }
-}    
+}
+    
     
 
