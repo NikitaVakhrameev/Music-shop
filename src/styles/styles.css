@@ -6,13 +6,13 @@ body {
     font-family: 'Montserrat', sans-serif;
     color: #FFFFFF;
     font-size: 14px;
-    width: 1680px;
 }
 
-.page-container {
+/*.page-container {
     height: 100%;
     margin: 0 80px;
 }
+*/
 
 .header {
     height: 100px;
@@ -27,6 +27,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-left: 80px;
 }
 
 .nav-logo {
@@ -87,8 +88,9 @@ body {
 
 .section__nav {
     margin-top: 90px;
+    margin-left: 80px;
     display: flex;
-    
+    align-items: center;
 }
 
 .section-nav__links {
@@ -98,11 +100,16 @@ body {
     color: #A5A5A5;
     text-decoration: none;
     margin-left: 10px;
-    
 }
 
 .section-nav__links:first-child {
     margin-left: 0px;
+    display:flex;
+}
+
+.nav-arrow {
+    margin-left: 10px;
+    /*align-items: center;*/
 }
 
 .section-arrow {
@@ -111,11 +118,14 @@ body {
     height: 8px;
     width: 8px;
     transform: rotate(45deg);
-    margin-left: 10px;
+    align-items: center;
+    box-sizing: border-box;
+    align-items: center;
     
 }
 
 .section-nav__catalogue {
+    margin-left: 80px;
     display: flex;
     font-family: 'Bellota', sans-serif;
     font-weight: bold;
@@ -135,6 +145,7 @@ body {
 }
 
 .content-menu {
+    margin-left: 80px;
     display: flex;
     align-items: center;
 }
@@ -168,82 +179,176 @@ body {
     align-items: center;
 }
 
-.main {
+/*.main {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
     margin-top: 20px;
 
-}
-.card-clash:hover.main__card-corner {
-    background: url(/src/img/Brownpic.png) no-repeat;
-    
-}
+}*/
 
 .card-top {
+    margin-top: 30px;
+    margin-left: 80px;
     display: flex;
     justify-content: space-between;
-    margin-left: 20px;
-    flex-wrap: wrap;
     
-}
-
-.card-top__pistols {
-    height: 285px;
 }
 
 .card-top__clash {
     height: 285px;
+    width: 285px;
 }
 
-.card-top__unknown {
-    height: 285px;
-}
-
-.card-specific {
-    background-color: brown;
+.card-top__pistols {
     height: 285px;
     width: 285px;
-    margin-top: 20px;
+    margin-left: 20px;
 }
 
-.card-specific__info {
+.card-top__clashsmall {
+    height: 285px;
+    width: 285px;
+    margin-left: 20px;
+}
+
+.card-top__brown {
+    height: 285px;
+    width: 285px;
+    margin-left: 20px;
+}
+
+.card-top__zipplier {
+    height: 285px;
+    width: 285px;
+    margin-left: 20px;
+}
+
+.card-rowtwo {
+    margin-top: 25px;
+    margin-left: 80px;
     display: flex;
     justify-content: space-between;
-    margin-top: 120px;
-    margin-left: 25px;
 }
 
-.card-specific__bold {
+.rowtwo-specific {
+    background-color: brown;
+    height: 285px;
+    min-width: 285px;
+}
+
+.specific-description {
+    margin-left: 25px;
+    margin-top: 30px;
+}
+
+.specific-description__bold {
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     font-weight: 600;
 }
 
-.card-specific__lowercase {
+.specific-description__lowercase {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
 }
 
-.card-specific__left {
-    flex-direction: column;
+.specific-info {
+    margin-top: 130px;
     margin-left: 25px;
-    margin-top: 35px;
+    display: flex;
+    align-items: center;
 }
 
-.card-specific__bottom {
+.specific-info__price {
+    font-size: 18px;
+}
+
+.info-logo {
+    margin-left: 95px;
     display: flex;
-    margin-left: 25px;
-    margin-top: 120px;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.info-logo__heart {
+    height: 15px;
+    width: 15px;
+}
+
+.info-logo__basket {
+    height: 15px;
+    width: 15px;
+    position: relative;
+    left: 35px;
+}
+
+.logo-circle__picture {
+    height: 45px;
+    width: 45px;
+    margin-left: 5px;
+}
+
+.card-rowtwo__usa {
+    height: 285px;
+    width: 285px;
+    margin-left: 20px;
+}
+
+.card-rowtwo__ramones {
+    height: 285px;
+    width: 285px;
+    margin-left: 20px;
+}
+
+.card-rowtwo__duck {
+    height: 285px;
+    width: 285px;
+    margin-left: 20px;
+}
+
+.card-rowtwo__nirvana {
+    height: 285px;
+    width: 285px;
+    margin-left: 20px;
+}
+
+.card-rdrow {
+    margin-top: 25px;
+    margin-left: 80px;
+    display: flex;
     justify-content: space-between;
 }
 
-.card-specific__logo {
-    margin-right: 25px;
-    margin-top: 15px;
-    align-items: center;
+.card-rdrow__item {
+    margin-left: 20px;
+    height: 285px;
+    width: 285px;
 }
+
+.card-rdrow__item:first-child {
+    margin-left: 0px;
+}
+
+.card-throw {
+    margin-top: 25px;
+    margin-left: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-throw__item {
+    margin-left: 20px;
+    height: 285px;
+    width: 285px;
+}
+
+.card-throw__item:first-child {
+    margin-left: 0px;
+}
+
 .footer {
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
@@ -254,10 +359,16 @@ body {
 }
 
 .footer-copyright {
-    height: 337px;
-    width: 357px;
+    display: flex;
+    align-items: flex-start;
+    flex-flow: column;
     margin-left: 80px;
-    border-right: 1px solid rgba(255, 255, 255, 0.1);
+    margin-right: 90px;
+}
+
+.footer-copyright__logo {
+    display: flex;
+    margin-bottom: 120px;
 }
 
 .footer-copyright__tradem {
@@ -283,7 +394,9 @@ body {
 
 .footer-contacts {
     display: flex;
+    align-items: flex-start;
     border-right: 1px solid rgba(255, 255, 255, 0.1);
+    border-left: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .contacts-info {
@@ -294,7 +407,27 @@ body {
     margin-left: 90px;
     text-decoration: none;
     color: white;
-    
+}
+
+.contacts-info__catalogue {
+    color: white;
+    font-size: 16px;
+    font-style: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+.contacts-info__about {
+    color: white;
+    font-size: 16px;
+    font-style: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+.contacts-info__certificate {
+    color: white;
+    font-size: 16px;
+    font-style: 'Montserrat', sans-serif;
+    text-decoration: none;
 }
 
 .footer-info {
@@ -306,12 +439,32 @@ body {
     margin-right: 130px;
 }
 
-.footer-address {
-    margin-left: 280px;
-    margin-top: 120px;
-    display: flex;
-    align-content: flex-start;
+.footer-info__FAQ {
+    color: white;
+    font-size: 16px;
+    font-style: 'Montserrat', sans-serif;
+    text-decoration: none;
 }
+
+.footer-info__warranty {
+    color: white;
+    font-size: 16px;
+    font-style: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+.footer-info__contacts {
+    color: white;
+    font-size: 16px;
+    font-style: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+.footer-address {
+    margin-left: 120px;
+    margin-top: 100px;
+}
+/*кривой блок, надо подумать как сделать*/
 
 @media screen and (max-width: 1250px) {
     .header-nav {
@@ -393,47 +546,150 @@ body {
 @media screen and (max-width:1250px) {
     .content {
         display: flex;
-
     }
     
     .content-menu {
         display: flex;
+    }
 
+    .content-menu__link:first-child {
+        margin-left: 0px;
+    }
+    
+    .content-menu__link {
+        margin-left: 10px;
     }
     
     .menu-price {
         display: flex;
+        margin-left: 15px;
+    }
+}
+
+@media screen and (max-width:970px) {
+    .content-menu {
+        display: flex;
+    }
+
+    .content-menu__link:first-child {
+        margin-left: 0px;
+    }
+    
+    .content-menu__link {
         margin-left: 10px;
+    }
+    
+    .menu-price {
+        margin-left: 30px;
+    }
+
+    .menu-sort {
+        margin-left: 30px;
     }
 }
 
 @media screen and (max-width:1370px) {
-    .main {
-        /*display: flex;
-        justify-content: space-between;
+    .card-top {
+        display: flex;
+        flex-wrap: wrap;
         margin-top: 50px;
-        /*flex-wrap: nowrap;*/
-        max-width: 80%;
-    }  
-
-    .card-top__unknown {
-        margin-top: 25px;
-    } 
-    
-    .card-specific {
-        margin-top: 25px;;
+        min-height: 610px;
     }
-}
 
-@media screen and (max-width: 1200px) {
-
-    .main {
-        max-width: 60%;
+    .card-top__zipplier {
+        margin-left: 0px;
+        margin-top: 0px;
     }
+
+@media screen and (max-width:1370px) {
+        .card-top {
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 50px;
+        }
+
+        .card-top__brown {
+            margin-left: 0px;
+        }
+
+@media screen and (max-width:980px) {
+    .card-top {
+        display: flex;
+        flex-wrap: wrap;
+        align-content: space-around;
+        margin-top: 0px;
+    }
+    .card-top__clashsmall {
+        margin-left: 0px;
+        margin-top: 0px;;
+        height: 200px;
+        width: 200px;
+    }
+
     .card-top__clash {
-        margin-top: 25px;
+        margin-left: 0px;
+        height: 200px;
+        width: 200px;
     }
-}
-    
-    
 
+    .card-top__pistols {
+        margin-left: 0px;
+        margin-top: 0px;
+        height: 200px;
+        width: 200px;
+    }
+
+    .card-top__brown {
+        margin-left: 0px;
+        margin-top: 0px;
+        height: 200px;
+        width: 200px;
+    }
+
+    .card-top__zipplier {
+        margin-left: 0px;
+        margin-top: 10px;
+        height: 200px;
+        width: 200px;
+    }
+    
+    @media screen and (max-width:680px) {
+        .card-top {
+            display: flex;
+            flex-wrap: wrap;
+            align-content: space-around;
+            margin-top: 0px;
+        }
+        .card-top__clashsmall {
+            margin-left: 0px;
+            margin-top: 10px;;
+            height: 200px;
+            width: 200px;
+        }
+    
+        .card-top__clash {
+            margin-left: 0px;
+            height: 200px;
+            width: 200px;
+        }
+    
+        .card-top__pistols {
+            margin-left: 0px;
+            margin-top: 0px;
+            height: 200px;
+            width: 200px;
+        }
+    
+        .card-top__brown {
+            margin-left: 0px;
+            margin-top: 10px;
+            height: 200px;
+            width: 200px;
+        }
+    
+        .card-top__zipplier {
+            margin-left: 0px;
+            margin-top: 10px;
+            height: 200px;
+            width: 200px;
+        }

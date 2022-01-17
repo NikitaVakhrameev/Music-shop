@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="styles/styles.css">
     </head>
     <body>
-        <div class="page-container">
+        <!--<div class="page-container">-->
             <header class="header">
                 <div class="header__nav header-nav">
                     <img class="header-nav__logo nav-logo" src="img/logo_header.png">
@@ -36,7 +36,9 @@
             <section class="section">
                 <nav class="section__nav section-nav">
                     <a class="section-nav__links" href="#" >Главная</a>
-                    <div class="section__arrow section-arrow"></div>
+                    <div class="section-nav nav-arrow">
+                        <div class="section__arrow section-arrow"></div>
+                    </div>
                     <a class="section-nav__links" href="#catalogue">Каталог</a>
                 </nav>
                 <a class="section-nav__catalogue" id="catalogue">Каталог</a>
@@ -63,37 +65,54 @@
                     <div class="content-menu__arrow"></div>
                 </div>
             </div>
-            <main class="main">
-                <div class="main__card card-clash">
-                    <img class="main__card-corner" src="img/Cardclash_main.png">
-                    <img class="main__card-hover" src="">
-                </div>
                 <div class="main__card card-top">
-                    <img class="card-top__pistols" src="img/pistols_main.png">
                     <img class="card-top__clash" src="img/Clashsmall.png">
-                    <img class="card-top__unknown" src="img/Brownpic.png">
-                        <div class="main__card card-specific">
-                            <div class="card-specific__left">
-                                <p class="card-specific__bold">Rocks</p>
-                                <p class="card-specific__lowercase">Aerosmith</p>
-                            </div>
-                            <div class="card-specific__info">
-                                    <p class="card-specific__price">4 700 ₽</p>
-                                <div class="card-specific__logo">
-                                    <img class="heart" src="img/heart_header.png">
-                                    <img class="search" src="img/basket.png">
-                                </div>
+                    <img class="card-top__pistols" src="img/pistols_main.png">
+                    <img class="card-top__clashsmall" src="img/Clashsmall.png">
+                    <img class="card-top__brown" src="img/Brownpic.png">
+                    <img class="card-top__zipplier" src="img/zipplier.png">
+                </div>
+                <div class="main__card card-rowtwo">
+                    <div class="card-rowtwo__specific rowtwo-specific">
+                        <div class="rowtwo-specific__description specific-description">
+                            <p class="specific-description__bold">Rocks</p>
+                            <p class="specific-description__lowercase">Aerosmith</p>
+                        </div>
+                        <div class="rowtwo-specific__info specific-info">
+                                <p class="specific-info__price">4 700 ₽</p>
+                            <div class="specific-info__logo info-logo">
+                                <img class="info-logo__heart" src="img/heart_header.png">
+                                <img class="info-logo__basket" src="img/basket.png">
+                                <img class="logo-circle__picture" src="img/circlesbasket.png">
                             </div>
                         </div>
-                    <img class="card-specific" src="img/zipplier.png">
-                    <img class="card-specific" src="img/Theusa.png">
+                    </div>
+                    <img class="card-rowtwo__usa" src="img/Theusa.png">
+                    <img class="card-rowtwo__ramones" src="img/ramones.png">
+                    <img class="card-rowtwo__duck" src="img/duck.png">
+                    <img class="card-rowtwo__nirvana" src="img/nirvana.png">
                 </div>
-            </main>
+                <div class="main__card card-rdrow">
+                    <img class="card-rdrow__item" src="img/aqualang.png">
+                    <img class="card-rdrow__item" src="img/floyd.png">
+                    <img class="card-rdrow__item" src="img/mamas.png">
+                    <img class="card-rdrow__item" src="img/revolver.png">
+                    <img class="card-rdrow__item" src="img/ledzeppelin.png">
+                </div>
+                <div class="main__card card-throw">
+                    <img class="card-throw__item" src="img/springsteen.png">
+                    <img class="card-throw__item" src="img/roxy.png">
+                    <img class="card-throw__item" src="img/blood.png">
+                    <img class="card-throw__item" src="img/beatles.png">
+                    <img class="card-throw__item" src="img/sane.png">
+                </div>
             <footer class="footer">
                 <div class="footer__copyright footer-copyright">
                     <p class="footer-copyright__tradem"><span class="footer-copyright__tradem_bold">©Vinil Market 2021.</span><br>Все права защищены.</p>
-                    <img class="footer-copyright__facebook" src="img/facebook.png">
-                    <img class="footer-copyright__instagram" src="img/instagram.png">
+                    <div class="footer-copyright__logo">
+                        <img class="footer-copyright__facebook" src="img/facebook.png">
+                        <img class="footer-copyright__instagram" src="img/instagram.png">
+                    </div>
                 </div>
                 <div class="footer__contacts footer-contacts"> 
                     <div class="footer-contacts__info contacts-info">
@@ -111,6 +130,5 @@
                         <p class="footer-address__details">8 (495) 690-06-90<br>trade@vinyl.ru<br>Большой Афанасьевский<br>переулок д. 35-37, строение 4</p>
                 </div> 
             </footer>
-        </div>
     </body>
 </html>
