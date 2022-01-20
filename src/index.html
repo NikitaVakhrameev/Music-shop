@@ -12,23 +12,23 @@
                 <div class="header__nav header-nav">
                     <img class="header-nav__logo nav-logo" src="img/logo_header.png">
                     <nav class="header-nav__links nav-links">
-                        <a class="nav-links__item">КАТАЛОГ</a>
-                        <a class="nav-links__item">FAQ</a>
-                        <a class="nav-links__item">КОНТАКТЫ</a>
+                        <a class="nav-links__item" href="#">КАТАЛОГ</a>
+                        <a class="nav-links__item" href="#">FAQ</a>
+                        <a class="nav-links__item" href="#">КОНТАКТЫ</a>
                     </nav>
                 </div>
                 <div class="header__actions header-actions">
                     <div class="header-actions__contact action-contact">
-                        <img class="action-contact__img" src="img/phone.png">
+                        <a href="#"><img class="action-contact__img" src="img/phone.png"></a>
                         <span class="action-contact__phone">8 (495) 690-06-90</span>
                     </div>
                     <div class="header-actions__search action-search">
-                        <img class="action-search__icon" src="img/magnifier_header.png">
+                        <a href="#"><img class="action-search__icon" src="img/magnifier_header.png"></a>
                     </div>
                     <div class="header-actions__options action-options">
-                        <img class="action-options__item" src="img/heart_header.png">
-                        <img class="action-options__item" src="img/profile_header.png">
-                        <img class="action-options__item" src="img/basket.png">
+                        <a href="#"><img class="action-options__item" src="img/heart_header.png"></a>
+                        <a href="#"><img class="action-options__item" src="img/profile_header.png"></a>
+                        <a href="#"><img class="action-options__item" src="img/basket.png"></a>
                     </div>
                 </div>
             </header>
@@ -36,11 +36,16 @@
                 <nav class="section__nav section-nav">
                     <a class="section-nav__links" href="#" >Главная</a>
                     <div class="section-nav nav-arrow">
-                        <div class="section__arrow section-arrow"></div>
+                        <a class="nav-arrow__link" href="#">
+                            <div class="section__arrow section-arrow"></div>
+                        </a>
                     </div>
                     <a class="section-nav__links" href="#catalogue">Каталог</a>
                 </nav>
                 <a class="section-nav__catalogue" id="catalogue">Каталог</a>
+                <div class="section__logo section-logo">
+                    <img class="section-logo__item" src="img/Vector_section.png">
+                </div>
             </section>
             <div class="content">
                 <div class="content__menu content-menu">
@@ -55,62 +60,57 @@
                 </div>
                 <div class="content-menu__price menu-price">
                     <p class="menu-price__item">Цена от</p>
-                    <p class="menu-price__item">_______</p>
-                    <p class="menu-price__item>">До</p>
-                    <p class="menu-price__item">_______</p>
+                    <div class="menu-price__field"></div>
+                    <p class="menu-price__item">До</p>
+                    <div class="menu-price__field"></div>
                 </div>
                 <div class="content__menu menu-sort">
                     <a class="menu-sort__engine">Сортировать по</a>
                     <div class="content-menu__arrow"></div>
                 </div>
             </div>
-                <div class="main__card card-top">
-                    <img class="card-top__clash" src="img/Clashsmall.png">
-                    <img class="card-top__pistols" src="img/pistols_main.png">
-                    <img class="card-top__clashsmall" src="img/Clashsmall.png">
-                    <img class="card-top__brown" src="img/Brownpic.png">
-                    <img class="card-top__zipplier" src="img/zipplier.png">
-                </div>
-                <div class="main__card card-rowtwo">
-                    <div class="card-rowtwo__specific rowtwo-specific">
-                        <div class="rowtwo-specific__description specific-description">
-                            <p class="specific-description__bold">Rocks</p>
-                            <p class="specific-description__lowercase">Aerosmith</p>
-                        </div>
-                        <div class="rowtwo-specific__info specific-info">
-                                <p class="specific-info__price">4 700 ₽</p>
-                            <div class="specific-info__logo info-logo">
-                                <img class="info-logo__heart" src="img/heart_header.png">
-                                <img class="info-logo__basket" src="img/basket.png">
-                                <img class="logo-circle__picture" src="img/circlesbasket.png">
-                            </div>
+            <div class="main__card card-item">
+                <img class="card-item__picture first-item" src="img/Clashsmall.png">
+                <img class="card-item__picture" src="img/pistols_main.png">
+                <img class="card-item__picture" src="img/Clashsmall.png">
+                <img class="card-item__picture" src="img/Brownpic.png">
+                <img class="card-item__picture" src="img/zipplier.png">
+                <div class="card-item__specific item-specific">
+                    <div class="item-specific__description specific-description">
+                        <p class="specific-description__bold">Rocks</p>
+                        <p class="specific-description__lowercase">Aerosmith</p>
+                    </div>
+                    <div class="item-specific__info specific-info">
+                            <p class="specific-info__price">4 700 ₽</p>
+                        <div class="specific-info__logo info-logo">
+                            <a href="#"><img class="info-logo__heart" src="img/heart_header.png"></a>
+                            <a href="#"><img class="info-logo__basket" src="img/basket.png"></a>
+                            <img class="logo-circle__picture" src="img/circlesbasket.png">
                         </div>
                     </div>
-                    <img class="card-rowtwo__usa" src="img/Theusa.png">
-                    <img class="card-rowtwo__ramones" src="img/ramones.png">
-                    <img class="card-rowtwo__duck" src="img/duck.png">
-                    <img class="card-rowtwo__nirvana" src="img/nirvana.png">
                 </div>
-                <div class="main__card card-rdrow">
-                    <img class="card-rdrow__item" src="img/aqualang.png">
-                    <img class="card-rdrow__item" src="img/floyd.png">
-                    <img class="card-rdrow__item" src="img/mamas.png">
-                    <img class="card-rdrow__item" src="img/revolver.png">
-                    <img class="card-rdrow__item" src="img/ledzeppelin.png">
-                </div>
-                <div class="main__card card-throw">
-                    <img class="card-throw__item" src="img/springsteen.png">
-                    <img class="card-throw__item" src="img/roxy.png">
-                    <img class="card-throw__item" src="img/blood.png">
-                    <img class="card-throw__item" src="img/beatles.png">
-                    <img class="card-throw__item" src="img/sane.png">
-                </div>
+                <img class="card-item__picture" src="img/Theusa.png">
+                <img class="card-item__picture" src="img/ramones.png">
+                <img class="card-item__picture" src="img/duck.png">
+                <img class="card-item__picture" src="img/nirvana.png">
+                <img class="card-item__picture first-item" src="img/aqualang.png">
+                <img class="card-item__picture" src="img/floyd.png">
+                <img class="card-item__picture" src="img/mamas.png">
+                <img class="card-item__picture" src="img/revolver.png">
+                <img class="card-item__picture" src="img/ledzeppelin.png">
+                <img class="card-item__picture first-item" src="img/springsteen.png">
+                <img class="card-item__picture" src="img/roxy.png">
+                <img class="card-item__picture" src="img/blood.png">
+                <img class="card-item__picture" src="img/beatles.png">
+                <img class="card-item__picture" src="img/sane.png">
+            </div>
             <footer class="footer">
                 <div class="footer__copyright footer-copyright">
-                    <p class="footer-copyright__tradem"><span class="footer-copyright__tradem_bold">©Vinil Market 2021.</span><br>Все права защищены.</p>
+                    <p class="footer-copyright__bold">©Vinil Market 2021.<br>
+                    <p class="footer-copyright__thin">Все права защищены.</p>
                     <div class="footer-copyright__logo">
-                        <img class="footer-copyright__facebook" src="img/facebook.png">
-                        <img class="footer-copyright__instagram" src="img/instagram.png">
+                        <a href="#"><img class="footer-copyright__facebook" src="img/facebook.png"></a>
+                        <a href="#"><img class="footer-copyright__instagram" src="img/instagram.png"></a>
                     </div>
                 </div>
                 <div class="footer__contacts footer-contacts"> 
@@ -126,7 +126,10 @@
                     </div>    
                 </div>
                 <div class="footer__address footer-address">
-                        <p class="footer-address__details">8 (495) 690-06-90<br>trade@vinyl.ru<br>Большой Афанасьевский<br>переулок д. 35-37, строение 4</p>
+                        <p class="footer-address__details">8 (495) 690-06-90</p>
+                        <p class="footer-address__details">trade@vinyl.ru</p>
+                        <p class="footer-address__details">Большой Афанасьевский</p>
+                        <p class="footer-address__details">переулок д. 35-37, строение 4</p>
                 </div> 
             </footer>
     </body>
