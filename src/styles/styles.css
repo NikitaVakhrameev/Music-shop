@@ -251,20 +251,13 @@ body {
     margin-top: 20px;
 }
 
-.card-item__picture:hover {
-    opacity: 0;
-}
 
 .card-hover {
     display: flex;
-    z-index: -1;
+    z-index: 1;
     position: absolute;
     flex-flow: wrap;
 }
-
-/*.first-item {
-    margin-left: 80px;
-}*/
 
 .item-specific {
     background-color: brown;
@@ -272,6 +265,11 @@ body {
     width: 255px;
     margin-left: 20px;
     margin-top: 20px;
+    opacity: 0;
+}
+
+.item-specific:hover {
+    opacity: 1;
 }
 
 .specific-description {
@@ -652,14 +650,6 @@ body {
         margin-top: 0px;
         margin-left: 70px;
     }
-
-   /* .card-hover {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: flex-start;
-        margin-top: 0px;
-    }
-    */
 
     .card-item__picture {
         margin-left: 10px;
