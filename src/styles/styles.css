@@ -14,6 +14,7 @@ body {
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 0px 80px;
 }
 
 .header-nav {
@@ -21,7 +22,6 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 80px;
 }
 
 .nav-logo {
@@ -43,7 +43,6 @@ body {
 .nav-links__item {
     text-decoration: none;
     color: white;
-
 }
 
 .nav-links__item:hover {
@@ -105,10 +104,9 @@ body {
 
 .section__nav {
     margin-top: 90px;
-    margin-left: 80px;
+    padding: 0px 80px;
     display: flex;
     align-items: center;
-  
 }
 
 .section-nav__links {
@@ -143,7 +141,7 @@ body {
     align-items: center;
     box-sizing: border-box;
     align-items: center;
-    
+
 }
 
 .section-arrow:hover {
@@ -159,7 +157,7 @@ body {
 }
 
 .section-nav__catalogue {
-    margin-left: 80px;
+    padding: 0px 80px;
     display: flex;
     font-family: 'Bellota', sans-serif;
     font-weight: bold;
@@ -178,7 +176,7 @@ body {
 
 .content {
     margin-top: 90px;
-    margin-left: 80px;
+    padding: 0px 80px;
     display: flex;
     justify-content: space-between;
     font-family: 'Montserrat', sans-serif;
@@ -188,7 +186,6 @@ body {
 }
 
 .content-menu {
-    
     display: flex;
     align-items: center;
 }
@@ -239,32 +236,30 @@ body {
 
 .card-item {
     margin-top: 10px;
-    margin-left: 60px;
+    padding: 0px 60px;
     display: flex;
     flex-flow: wrap;
+    justify-content: space-between;
 }
 
 .card-item__picture {
-    height: 255px;
-    width: 255px;
+    height: 285px;
+    width: 285px;
     margin-left: 20px;
     margin-top: 20px;
 }
 
-
-.card-hover {
+.item__container {
     display: flex;
-    z-index: 1;
-    position: absolute;
-    flex-flow: wrap;
 }
 
 .item-specific {
     background-color: brown;
-    height: 255px;
-    width: 255px;
+    height: 285px;
+    width: 285px;
     margin-left: 20px;
     margin-top: 20px;
+    position: absolute;
     opacity: 0;
 }
 
@@ -349,8 +344,8 @@ body {
     align-items: flex-start;
     flex-flow: column;
     justify-content: center;
-    margin-left: 80px;
-    margin-right: 90px;
+    padding-left: 80px;
+    padding-right: 90px;
     margin-top: 120px;
 }
 
@@ -393,7 +388,7 @@ body {
     flex-direction: column;
     align-items: flex-start;
     margin-top: 120px;
-    margin-left: 90px;
+    padding-left: 90px;
     text-decoration: none;
     color: white;
 }
@@ -425,9 +420,9 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin-left: 130px;
+    padding-left: 130px;
     margin-top: 120px;
-    margin-right: 130px;
+    padding-right: 130px;
 }
 
 .footer-info__FAQ {
@@ -454,7 +449,7 @@ body {
 }
 
 .footer-address {
-    margin-left: 135px;
+    padding-left: 135px;
     margin-top: 120px;
     justify-content: center;
 }
@@ -595,11 +590,10 @@ body {
         flex-wrap: wrap;
         justify-content: space-between;
         margin-top: 0px;
-        margin-left: 65px;
     }
 
     .card-item__picture {
-        margin-left: 15px;
+        margin-left: 20px;
         margin-top: 10px;;
         height: 200px;
         width: 200px;
@@ -607,7 +601,7 @@ body {
 
     .item-specific {
         margin-top: 10px;
-        margin-left: 15px;
+        margin-left: 20px;
         height: 200px;
         width: 200px;            
     }
@@ -638,7 +632,6 @@ body {
         flex-wrap: wrap;
         justify-content: space-between;
         margin-top: 0px;
-        /*margin-left: 65px;*/
     }
 }
 
@@ -648,18 +641,17 @@ body {
         flex-wrap: wrap;
         align-content: space-between;
         margin-top: 0px;
-        margin-left: 70px;
     }
 
     .card-item__picture {
-        margin-left: 10px;
+        margin-left: 20px;
         margin-top: 10px;
         height: 200px;
         width: 200px;
     }
     
     .item-specific {
-        margin-left: 10px;
+        margin-left: 20px;
         margin-top: 10px;
         max-height: 200px;
         min-width: 200px;            
@@ -694,23 +686,14 @@ body {
         flex-wrap: wrap;
         align-content: space-between;
         margin-top: 0px;
-        margin-left: 80px;
     }
 
     .card-item__picture {
-        margin-left: 0px;
-        margin-top: 10px;;
+        margin-top: 10px;
         height: 200px;
         width: 200px;
     }
 
-    .item-specific {
-        margin-left: 0px;
-    }
-
-    .first-item {
-        margin-left: 0px;
-    }
 }
 
 @media screen and (max-width:1435px) {
