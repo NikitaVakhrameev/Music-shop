@@ -46,8 +46,7 @@ body {
 }
 
 .nav-links__item:hover {
-    text-decoration: underline;
-    font-size: 18px;
+    color: #F5BA63;
 }
 
 .header-actions {
@@ -90,6 +89,16 @@ body {
     height: 24px;
 }
 
+.action-contact__phone {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+.action-contact__phone:hover {
+    color: #F5BA63;
+}
+
 .section {
     height: 250px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
@@ -124,8 +133,7 @@ body {
 }
 
 .section-nav__links:hover {
-    font-size: 14px;
-    text-decoration: underline;
+    color: #F5BA63;
 }
 
 .nav-arrow {
@@ -145,15 +153,8 @@ body {
 }
 
 .section-arrow:hover {
-    border-top: 1.2px solid #A5A5A5;;
-    border-right: 1.2px solid #A5A5A5;
-    height: 10px;
-    width: 10px;
-    transform: rotate(45deg);
-    align-items: center;
-    box-sizing: border-box;
-    align-items: center;
-    
+    border-top: 1.2px solid #F5BA63;
+    border-right: 1.2px solid #F5BA63;
 }
 
 .section-nav__catalogue {
@@ -167,11 +168,15 @@ body {
 }
 
 .action-contact__img:hover {
-    opacity: 0.1;
+    opacity: 0.5;
 }
 
 .action-options__item:hover {
-    opacity: 0.1;
+    opacity: 0.5;
+}
+
+.action-search__icon:hover {
+    opacity: 0.5;
 }
 
 .content {
@@ -191,7 +196,7 @@ body {
 }
 
 .content-menu__arrow {
-    border-top: 1.2px solid #A5A5A5;;
+    border-top: 1.2px solid #A5A5A5;
     border-right: 1.2px solid #A5A5A5;
     height: 6px;
     width: 6px;
@@ -205,6 +210,17 @@ body {
 
 .content-menu__link {
     margin-left: 30px;
+}
+
+.content-menu__link:hover {
+    color: #F5BA63;
+    cursor: pointer;
+}
+
+.content-menu__arrow:hover {
+    border-top: 1.2px solid #F5BA63;
+    border-right: 1.2px solid #F5BA63;
+    cursor: pointer;
 }
 
 .menu-price {
@@ -234,6 +250,11 @@ body {
     align-items: center;
 }
 
+.menu-sort__engine:hover {
+    color: #F5BA63;
+    cursor: pointer;
+}
+
 .card-item {
     margin-top: 10px;
     padding: 0px 60px;
@@ -254,7 +275,7 @@ body {
 }
 
 .item-specific {
-    background-color: brown;
+    background-color: #552622;
     height: 285px;
     width: 285px;
     margin-left: 20px;
@@ -284,7 +305,7 @@ body {
 }
 
 .specific-info {
-    margin-top: 80px;
+    margin-top: 110px;
     margin-left: 25px;
     display: flex;
     align-items: center;
@@ -295,7 +316,7 @@ body {
 }
 
 .info-logo {
-    margin-left: 70px;
+    margin-left: 90px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -369,11 +390,19 @@ body {
     margin-top: 25px;
 }
 
+.footer-copyright__facebook:hover {
+    opacity: 0.5;
+}
+
 .footer-copyright__instagram {
     height: 24px;
     width: 24px;
     margin-top: 25px;
     margin-left: 30px;
+}
+
+.footer-copyright__instagram:hover {
+    opacity: 0.5;
 }
 
 .footer-contacts {
@@ -400,6 +429,10 @@ body {
     text-decoration: none;
 }
 
+.contacts-info__catalogue:hover {
+    color: #F5BA63;
+}
+
 .contacts-info__about {
     color: white;
     font-size: 16px;
@@ -408,12 +441,20 @@ body {
     margin-top: 10px;
 }
 
+.contacts-info__about:hover {
+    color: #F5BA63;
+}
+
 .contacts-info__certificate {
     color: white;
     font-size: 16px;
     font-style: 'Montserrat', sans-serif;
     text-decoration: none;
     margin-top: 10px;
+}
+
+.contacts-info__certificate:hover {
+    color: #F5BA63;
 }
 
 .footer-info {
@@ -432,6 +473,10 @@ body {
     text-decoration: none;
 }
 
+.footer-info__FAQ:hover {
+    color:  #F5BA63;
+}
+
 .footer-info__warranty {
     color: white;
     font-size: 16px;
@@ -440,12 +485,20 @@ body {
     margin-top: 10px;
 }
 
+.footer-info__warranty:hover {
+    color: #F5BA63;
+}
+
 .footer-info__contacts {
     color: white;
     font-size: 16px;
     font-style: 'Montserrat', sans-serif;
     text-decoration: none;
     margin-top: 10px;
+}
+
+.footer-info__contacts:hover {
+    color: #F5BA63;
 }
 
 .footer-address {
@@ -723,3 +776,20 @@ body {
         margin-left: 20px;
     }
 }
+
+.magnifier {
+    display: flex;
+}
+
+.magnifier-input {
+    opacity: 0.1;
+    width: 24px;
+    height: 24px;
+    align-items: center;
+    justify-content: center;
+}
+
+/*
+.action-search__icon {
+    position: absolute;
+}*/
